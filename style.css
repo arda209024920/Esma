@@ -1,0 +1,23 @@
+body {
+  margin: 0; background: #ffd6e7; color: #492b34;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto;
+}
+.page { min-height: 100vh; padding: 60px 20px; position: relative; }
+h1 { text-align: center; font-size: 34px; font-weight: 700; }
+p { text-align: center; font-size: 18px; }
+.center { text-align: center; }
+button {
+  padding: 12px 20px; border-radius: 10px; border: none;
+  font-size: 18px; background: #ff8fb6; color: white;
+  margin: 10px; cursor: pointer; font-weight: 600;
+}
+.dekor-foto {
+  width: 55px; opacity: 0.9; position: absolute;
+  top: 10vh; left: 50%; transform: translateX(-50%);
+}
+.bg-lines {
+  position: absolute; inset: 0; z-index: 0;
+  background: repeating-linear-gradient(45deg,#ffe3f0 0,#ffe3f0 8px,#ffd0e4 8px,#ffd0e4 16px);
+  opacity: 0.35;
+}
+.content { position: relative; z-index: 2; margin-top: 80px; }
